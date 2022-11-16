@@ -1,7 +1,7 @@
 {
   "name": "ui-calorie-tracker",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://sr33nadhm.github.io/calorie-tracker/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
