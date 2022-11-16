@@ -33,7 +33,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "set PORT=3333 && react-app-env start",
+    "start": "react-app-env start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-app-env build",
