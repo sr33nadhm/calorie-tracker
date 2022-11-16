@@ -1,0 +1,221 @@
+body,
+html {
+  height: auto !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 420px;
+  margin: 20px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  min-height: 540px;
+}
+
+.ui.tab.active,
+.ui.tab.open {
+  height: 520px;
+}
+.ui.tabular.menu .active.item {
+  box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px,
+    rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+}
+
+.text-small p {
+  font-size: 12px;
+}
+
+.meal-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+  margin: 8px 0 !important;
+  min-height: 50px;
+  display: flex;
+  justify-content: left !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  cursor: pointer;
+}
+
+.meal-container .header {
+  font-size: 16px !important;
+  text-align: left !important;
+}
+
+.meal-container .content {
+  text-align: left !important;
+}
+
+.ui.items > .item .meta {
+  margin: 2px 0 !important;
+  text-align: left !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.meal-container .extra {
+  font-size: 12px !important;
+  margin-top: 1px !important;
+}
+
+.admin-container {
+  border-top: 2px solid #ad1313 !important;
+}
+
+.user-container {
+  border-top: 2px solid #1897ff !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.sticky-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto !important;
+}
+
+.add-meal-btn {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 18px;
+  color: #ffffff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px !important;
+  position: fixed;
+  left: auto;
+  bottom: 48px;
+  background-color: #1897ff !important;
+  border: none !important;
+  cursor: pointer;
+  transform: translateX(153px);
+  box-shadow: -4px 5px 20px 11px rgb(255 255 255);
+}
+
+.overflow-y-scroll {
+  overflow-y: auto;
+}
+
+.row-justify {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0 !important;
+}
+.custom-pushable {
+  box-shadow: none !important;
+  margin: 0 !important;
+  border: none !important;
+  min-height: 472px;
+}
+.filter-icon-row {
+  position: absolute;
+  right: 14px;
+  transform: translateY(-15px);
+  z-index: 100;
+  cursor: pointer;
+}
+.custom-sidebar {
+  background-color: white;
+  min-width: 350px;
+}
+.custom-sidebar-body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+.custom-sidebar-label {
+  margin-bottom: 15px !important;
+  width: 100% !important;
+  max-width: 265px;
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
+.section-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px !important;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.mask-button {
+  width: 100%;
+  max-height: 100px;
+  background: #010101;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 36px;
+}
+.rdrMonthAndYearWrapper {
+  align-items: center;
+  height: 40px;
+  padding-top: 0 !important;
+}
+.manage-meals-btns {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.w-inherit {
+  margin-top: 20px;
+  width: inherit;
+}
+.sui-field {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mt-10 {
+  margin-top: 10px !important;
+}
+.admin-stats-card {
+  text-align: left !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.d-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

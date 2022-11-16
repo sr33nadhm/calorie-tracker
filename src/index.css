@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.calendar-gen-link .rdrDateDisplayWrapper {
+  display: none;
+  visibility: hidden;
+}
+
+.rdrWeekDay {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #8894ff;
+}
+.gen-link-day-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3e3e3e;
+}
+
+.rdrDay {
+  height: 3em !important;
+}
+
+.rdrMonth {
+  padding: 0 0.833em 0.833em 0.833em;
+}
+.confirm-dates-btn {
+  background: linear-gradient(90deg, #030303 -9.2%, #000000 108.8%);
+  color: white;
+  width: 96px;
+  height: 48px;
+}
+.confirm-dates-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 20px;
+  margin-bottom: 40px;
+  justify-content: right;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber div,
+.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber div,
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber div {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.mw-300 .rdrMonthAndYearWrapper,
+.mw-300 .rdrMonths,
+.mw-300 .rdrMonth {
+  max-width: 300px;
+}
