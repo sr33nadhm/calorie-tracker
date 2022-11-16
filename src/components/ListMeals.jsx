@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { MealService } from "services/mealServices";
 import { Item, Icon, Pagination, Sidebar, Segment, Select, Form } from 'semantic-ui-react';
 import CustomModal from "./Modal";
