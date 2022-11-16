@@ -2,7 +2,7 @@
   "name": "ui-calorie-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sreenadh.dev/calorie-tracker/",
+  "homepage": "https://sr33nadhm.github.io/calorie-tracker/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
